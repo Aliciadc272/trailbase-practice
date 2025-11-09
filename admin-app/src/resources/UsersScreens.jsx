@@ -16,7 +16,7 @@ export const UsersList = () => (
 );
 
 export const UsersEdit = () => (
-    <Edit>
+    <Edit title="Edit Users">
         <SimpleForm>
             <TextInput source="name" />
             <TextInput source="email" />
@@ -27,7 +27,7 @@ export const UsersEdit = () => (
 );
 
 export const UsersCreate = () => (
-    <Create>
+    <Create title="Create Users">
         <SimpleForm>
             <TextInput source="name" />
             <TextInput source="email" />

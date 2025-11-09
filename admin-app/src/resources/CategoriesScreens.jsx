@@ -13,7 +13,7 @@ export const CategoriesList = () => (
 );
 
 export const CategoriesEdit = () => (
-    <Edit>
+    <Edit title="Edit Product Categories">
         <SimpleForm>
             <TextInput source="name" />
         </SimpleForm>
@@ -21,7 +21,7 @@ export const CategoriesEdit = () => (
 );
 
 export const CategoriesCreate = () => (
-    <Create>
+    <Create title="Create Product Categories">
         <SimpleForm>
             <TextInput source="name" />
         </SimpleForm>

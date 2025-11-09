@@ -19,7 +19,7 @@ export const ProductsList = () => (
 );
 
 export const ProductsEdit = () => (
-    <Edit>
+    <Edit title="Edit Products">
         <SimpleForm>
             <TextInput source="name" />
             <NumberInput source="price" />
@@ -33,7 +33,7 @@ export const ProductsEdit = () => (
 );
 
 export const ProductsCreate = () => (
-    <Create>
+    <Create title="Create Products">
         <SimpleForm>
             <TextInput source="name" />
             <NumberInput source="price" />
